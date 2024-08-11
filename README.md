@@ -32,7 +32,7 @@ npm install
 ```
 ###### or
 ```shell
-yarn add
+yarn install
 ```
 
 ### Environment
