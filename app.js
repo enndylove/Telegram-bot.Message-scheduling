@@ -16,6 +16,13 @@ const commands = [
 ];
 app.setMyCommands(commands);
 
+/**
+ * Sends a message to the group chat with media (photo, document, or video)
+ * @param {string} message - The text of the message
+ * @param {object} media - The media object (photo, document, or video)
+ * @example
+ * sendMessageToGroupWithMedia("Hello!", { type: "photo", content: "file_id" })
+ */
 async function sendMessageToGroupWithMedia(message, media) {
   if (media.type === "photo") {
     app.sendPhoto(groupChatId, media.content, { caption: message });
