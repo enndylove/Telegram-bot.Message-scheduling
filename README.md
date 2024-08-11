@@ -30,6 +30,10 @@ cd Telegram-bot.Message-scheduling
 ```shell
 npm install
 ```
+###### or
+```shell
+yarn add
+```
 
 ### Environment
 1. Create a file named .env and add the following code:
